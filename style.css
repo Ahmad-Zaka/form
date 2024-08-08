@@ -1,0 +1,94 @@
+ body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 241, 245);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+ }
+.container{
+    width: 33vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow:0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    position: relative;
+}
+.circle{
+    background-color: purple;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle i{
+    color: white;
+}
+.upper h4{
+    color: purple;
+    font-size: 12px;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+      margin-bottom: 10px;
+      font-size: 10px;
+      display:block;
+      border: transparent;
+      padding: 8px;
+      padding-left: 15px;
+      padding-right: 70px;
+      border-radius: 3px;
+      background-color: rgb(245, 245, 245);
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    color: purple;
+    font-weight: 500;
+}
+p{
+    font-size: 8px;
+    color: purple;
+    font-weight: 500;
+}
+.detail label input{
+    margin-right: 10px;
+    margin-top: 7px;
+}
+button{
+    background-color:purple;
+    border-radius: 3px;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 8px;
+    position: absolute;
+    bottom: -17px;
+    border: 1px solid purple;
+}
